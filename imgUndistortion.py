@@ -57,10 +57,10 @@ def img_undistort(camera_calibration, dirname):
 	for i, fname in enumerate(images):
 		img = cv2.imread(fname)
 		h,  w = img.shape[:2]
-		print h, w
+		# print h, w
 		newcameramtx, roi=cv2.getOptimalNewCameraMatrix(cameraMatrix,distCoeffs,(w,h),1.,(w,h))
-		print newcameramtx
-		print roi
+		# print newcameramtx
+		# print roi
 		# undistort the image
 		# undistorted_img = cv2.undistort(img, cameraMatrix, distCoeffs, None)
 		undistorted_img = cv2.undistort(img, cameraMatrix, distCoeffs, newcameramtx)
