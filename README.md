@@ -3,7 +3,7 @@ use python, opencv to preprocess video clips for PTV analysis and fish identific
 
 ## Directory Structure:
 + data
-  - video clips (in mp4 or other readable formats)
+  - video clips (in .mp4 or other readable formats)
   - img_pre.py
   - frameExtractor.py
   - imgUndistortion.py
