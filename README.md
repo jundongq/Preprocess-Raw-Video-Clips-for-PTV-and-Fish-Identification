@@ -2,6 +2,7 @@
 use python, opencv to preprocess video clips for PTV analysis and fish identification
 
 ## Directory Structure:
+```
 + data
   - video clips (in .mp4 or other readable formats)
   - img_pre.py
@@ -9,7 +10,7 @@ use python, opencv to preprocess video clips for PTV analysis and fish identific
   - imgUndistortion.py
   - imgReflectionRemove.py
   - calibration_data.npz (camera calibration data, which includes distortion coefficients and camera matrix)
-
+```
 ## Usage:
 cd data
 
@@ -21,10 +22,10 @@ So, the resulted directory structure is:
 ```
 + data
   + FishBehaviorExample
-   + sampledFrames
-    - *.png
-   + Undistorted
-    - *.png
-   + UndistortedPreprocessed
-    - *.png
+    + sampledFrames
+      - *.png
+    + Undistorted
+      - *.png
+    + UndistortedPreprocessed
+      - *.png
 ```
