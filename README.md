@@ -20,9 +20,9 @@ this code will sample 1 frame from 'FishBehaviorExample.mp4' in every 6 frames, 
 So, the resulted directory structure is:
 + data
   + FishBehaviorExample
-    ++ sampledFrames
-      - *.png
-    + Undistorted
-      - *.png
-    + UndistortedPreprocessed
-      - *.png
+   + sampledFrames
+    - *.png
+   + Undistorted
+    - *.png
+   + UndistortedPreprocessed
+    - *.png
