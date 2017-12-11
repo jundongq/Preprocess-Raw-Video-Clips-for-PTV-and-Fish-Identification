@@ -12,4 +12,5 @@ use python, opencv to preprocess video clips for PTV analysis and fish identific
 
 ## Usage:
 cd data
+
 python img_pre.py -v FishBehavior.mp4 -n 6 -cp calibration_data.npz 
