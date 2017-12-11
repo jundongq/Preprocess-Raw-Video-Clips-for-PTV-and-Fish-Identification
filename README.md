@@ -11,4 +11,5 @@ use python, opencv to preprocess video clips for PTV analysis and fish identific
   - calibration_data.npz (camera calibration data, which includes distortion coefficients and camera matrix)
 
 ## Usage:
+cd data
 python img_pre.py -v FishBehavior.mp4 -n 6 -cp calibration_data.npz 
