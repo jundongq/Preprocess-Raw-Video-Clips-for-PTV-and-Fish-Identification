@@ -18,6 +18,7 @@ python img_pre.py -v FishBehaviorExample.mp4 -n 6 -cp calibration_data.npz
 this code will sample 1 frame from 'FishBehaviorExample.mp4' in every 6 frames, and generate a subdirectory 'sampledFrames'; then all sampled frames will be undistorted and stored in 2nd new subdictory 'Undistorted'; then the light reflection on all undistorted images will be removed and the preprocessed images will be stored in 3rd new subdictory 'UndistortedPreprocessed'.
 
 So, the resulted directory structure is:
+```
 + data
   + FishBehaviorExample
    + sampledFrames
@@ -26,3 +27,4 @@ So, the resulted directory structure is:
     - *.png
    + UndistortedPreprocessed
     - *.png
+```
