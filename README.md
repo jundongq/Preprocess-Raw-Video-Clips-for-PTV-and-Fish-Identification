@@ -27,5 +27,5 @@ So, the resulted directory structure is:
     + Undistorted
       - *.png
     + UndistortedPreprocessed
-      - *.png
+      - *.png (all images for PTV and emerald shiner identification)
 ```
